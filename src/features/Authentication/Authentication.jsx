@@ -7,7 +7,7 @@ import {
   sendEmailVerification,
 } from 'firebase/auth';
 
-function AuthWithEmailAndPassword() {
+function Authentication() {
   const [data, setData] = useState({});
   const auth = getAuth();
 
@@ -83,4 +83,4 @@ function AuthWithEmailAndPassword() {
   );
 }
 
-export default AuthWithEmailAndPassword;
+export default Authentication;
